@@ -1,0 +1,71 @@
+body, ul {
+    margin: 0 10px;
+    padding: 0;
+}
+
+/* 
+margin: As margens são usadas para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas.
+padding: É usado para criar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.
+*/ 
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: #dae5f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    position: bottom;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+.imagem {
+    width: 150px;
+    border-radius: 5px;   
+}
+
+.cabecalho {
+    margin-top: 100px;
+}
+
+
+
+
+

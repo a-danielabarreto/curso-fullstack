@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Currículo</title>
 </head>
 <body>
     <header>
-        <h1>Daniela Barrêto Nóbrega de Almeida</h1>
-        <p>João Pessoa/PB | danielabna@gmail.com | <a href="https://github.com/a-danielabarreto">Portifólio</a> | <a href="https://www.linkedin.com/in/daniela-barreto-in/">LinkedIn</a></p>
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <img src="./img/foto_perfil.jpg" alt="Foto perfil" class="imagem">
+              </div>
+              <div class="col" id="cabecalho">
+                <h1>Daniela Barrêto Nóbrega de Almeida</h1>
+                <p>João Pessoa/PB | danielabna@gmail.com | <a href="https://github.com/a-danielabarreto" target="_blank" id="link">Portifólio</a> | <a href="https://www.linkedin.com/in/daniela-barreto-in/" target="_blank" id="link">LinkedIn</a></p>
+              </div>
+            </div>
+        </div>        
     </header>
 
     <section>
         <h2>Resumo</h2>
-        <p>Atualmente cursando Análise e Desenvolvimento de Sistemas, trago uma paixão pelo mundo da tecnologia e conhecimentos em Java, Python, Javascript, HTML, CSS, SQL, Power BI. Algumas habilidades comportamentais de destaque são: organização, constante busca por conhecimento, ética, responsabilidade, proatividade. </p>
+        <ul>
+            <li>Atualmente cursando Análise e Desenvolvimento de Sistemas, trago uma paixão pelo mundo da tecnologia e conhecimentos em Java, Python, Javascript, HTML, CSS, SQL, Power BI. Algumas habilidades comportamentais de destaque são: organização, constante busca por conhecimento, ética, responsabilidade, proatividade. </li>
+        </ul>
     </section>
 
     <section>
@@ -21,37 +34,37 @@
         <ul>
             <li><strong>Gran Centro Universitário</strong> - Graduação em Análise e Desenvolvimento de Sistemas<br>
             <em>Período: 11/2023 - Atual</em><br>
-            CRA: 9.50</li><br><br>
+            CRA: 9.50</li>
             <li><strong>Uniesp Centro Universitário</strong> - Especialização em Desenvolvimento Backend<br>
             <em>Período: 04/2023 - 05/2023</em><br>
-            CRA: 9.00</li><br><br>
+            CRA: 9.00</li>
             <li><strong>Centro Universitário de João Pessoa (UNIPÊ)</strong> - Graduação em Administração<br>
             <em>Período: 02/2021 - 12/2023</em><br>
-            CRA: 9.61</li><br><br>
+            CRA: 9.61</li>
             <li><strong>Universidade Federal da Paraíba (UFPB)</strong> - Graduação em Engenharia Civil<br>
             <em>Período: 05/2008 - 05/2013</em><br>
-            CRA: 8.53</li><br><br>
+            CRA: 8.53</li>
         </ul>
     </section>
 
     <section>
         <h2>Experiência Profissional</h2>
         <ul>
-            <li>FÁBRICA DE SOFTWARE UBTECH OFFICE/UNIPÊ | Estagiária<br>Período: 08/2023 - 12/2023 | Resultados em destaque:<br> 
+            <li><strong>FÁBRICA DE SOFTWARE UBTECH OFFICE/UNIPÊ</strong> | Estagiária<br>Período: 08/2023 - 12/2023 | <span>Resultados em destaque:</span><br> 
                 Criação de 6 Dashboards utilizando Microsoft Power BI.<br>
                 Participação em +40 dailies vivenciando a metodologia ágil Scrum.<br>
                 Voluntária em apresentação dos resultados ao cliente e ao coordenador da Fábrica de Software.<br>
                 Representante da área de Análise de Dados na apresentação para novos ingressantes da Fábrica de Software 2024.1.<br><br>
             </li>
-            <li>INSTITUTO FEDERAL DA PARAÍBA | Professora<br>Período: 06/2015 - 08/2021 | Resultados em destaque:<br>
+            <li><strong>INSTITUTO FEDERAL DA PARAÍBA</strong> | Professora<br>Período: 06/2015 - 08/2021 | <span>Resultados em destaque:</span><br>
                 Participação em 2 projetos de extensão: 1 como coordenadora e 1 como professora integrante.<br>
                 Participação em 1 projeto de pesquisa como coordenadora.<br>
                 2 trabalhos completos publicados em anais de congressos.<br>
-                Participação em 40+ bancas de TCC.<br>
-                Orientadora de TCC de 10+ alunos.<br>
+                Participação em +40 bancas de TCC.<br>
+                Orientadora de TCC de +10 alunos.<br>
                 7 disciplinas lecionadas.<br><br>
             </li>
-            <li>INSTITUTO FEDERAL DA PARAÍBA | Coordenadora de Estágio<br>Período: 06/2016 - 03/2019 | Resultados em destaque:<br>
+            <li><strong>INSTITUTO FEDERAL DA PARAÍBA</strong> | Coordenadora de Estágio<br>Período: 06/2016 - 03/2019 | <span>Resultados em destaque:</span><br>
                 +20 convênios firmados com empresas.<br>
                 +100 viabilizações de estágios.<br>
                 Realização de 3 relatórios de gestão anual.<br>
@@ -66,7 +79,7 @@
         <ul>
             <li>Linguagem de programação: Java, Javascript, Python</li>
             <li>Linguagem de consulta: SQL</li>
-            <li>Linguagem de marcação: HTML, CSS</li>
+            <li>Linguagem de marcação: HTML</li>
             <li>Linguagem de estilo: CSS</li>
             <li>Framework: Spring</li>
             <li>Ferramenta de visualização de dados: Power BI</li>
@@ -86,13 +99,18 @@
 
     <section>
         <h2>Trabalho Voluntário</h2>
-        <p>Ministério de Música da Paróquia Jesus Ressuscitado <br>
-        Período: 05/2019 - Atual</p>
+        <ul>
+            <li>Ministério de Música da Paróquia Jesus Ressuscitado<br>Período: 05/2019 - Atual</li>
+        </ul>
     </section>
 
     <section>
         <h2>Flagship Experiences</h2>
-        <p>Java, Spring Framework, Pyhton, Javascript, HTML, CSS, Bootstrap, SQL, Microsoft Power BI, Microsoft Excel, Microsoft PowerPoint, Agile Methodology, Scrum, Trello, Microsoft PowerPoint, Backend developer, Git, GitHub, Project Management, Marketing, Strategic Planning, Customer Service, Financial Math, Statistic, SWOT, PDCA, Flowchart, Bizagi, 5W2H, Canvas, PMBOK, AutoCad, Sustainability.</p>
+        <ul>
+            <li>
+                Java, Spring Framework, Pyhton, Javascript, HTML, CSS, Bootstrap, SQL, Microsoft Power BI, Microsoft Excel, Microsoft PowerPoint, Agile Methodology, Scrum, Trello, Microsoft PowerPoint, Backend developer, Git, GitHub, Project Management, Marketing, Strategic Planning, Customer Service, Financial Math, Statistic, SWOT, PDCA, Flowchart, Bizagi, 5W2H, Canvas, PMBOK, AutoCad, Sustainability.
+            </li>
+        </ul>
     </section>
 
     <footer>
