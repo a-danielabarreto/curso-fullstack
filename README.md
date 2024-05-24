@@ -18,8 +18,8 @@
 
 - Exercícios para casa:
     - Refazer o que foi visto em sala
-    - Melhorar Desafio currículo
-    - Fazer Desafio Restaurante/Lanchonete
+    - Melhorar Desafio currículo [(acessar)](https://github.com/a-danielabarreto/curso-fullstack/tree/main/aula01_em_casa/trabalhano_com_html)
+    - Fazer Desafio Restaurante/Lanchonete [(acessar)](https://github.com/a-danielabarreto/site-sabor-do-acai)
  
 ### Referência
 
