@@ -1,0 +1,52 @@
+/* 
+
+---- CSS referente ao Exercicio1.jsx ----
+
+body {
+  background-color: #d77d7d;
+  font-size: 100px;
+}
+
+img {
+  border: solid 10px #ccc;
+}
+
+
+---- CSS referente ao Exercicio1_1.jsx ----
+
+body {
+  background-color: #7dd7b9;
+  font-size: 20px;
+}
+
+button {
+  background-color: #4d79ff;
+  color: #ffffff;
+  border: none;
+}
+
+a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+
+---- CSS referente ao Exercicio1_1.jsx ----
+
+body {
+  background-color: #f0f0f0;
+  font-size: 16px;
+}
+
+input {
+  border-radius: 5px;
+  border: solid 1px #bbb;
+  padding: 10px;
+}
+
+h1 h2 h3 {
+  color: #3b3b3b;
+  text-align: center;
+}
+
+*/
